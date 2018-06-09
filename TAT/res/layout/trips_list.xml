@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+         <TextView
+        android:id="@+id/names_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:textSize="18sp"
+        android:text="精品周边游" />
+         
+         
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#C0C0C0"
+        android:text="来一场不一样的旅行" />
+        
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/inmage_list"
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+         android:scaleType="fitXY"
+        android:src="@drawable/as2" />
+
+    <TextView
+        android:id="@+id/content_lists"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+          android:gravity="center"
+      android:textSize="12sp"
+       android:maxLength="30"
+        android:text="新加坡6日4晚自由行(3钻)·西部航空直飞 4晚连住不挪窝/省心省力 " />
+
+   
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+     <TextView
+        android:id="@+id/telphone_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+            android:textColor="#2e8b57"
+        android:text="15178710812" />
+
+    
+
+    <TextView
+        android:id="@+id/price_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+              android:textColor="#ff8c00"
+                    android:textSize="12sp"
+        android:text="200.0" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff8c00"
+        android:textSize="18sp"
+        android:text="元" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/inmagelist1"
+                android:layout_width="120dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="10dp"
+                
+                android:src="@drawable/tioazhuan3" />
+
+            
+
+           <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+             android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/namelist1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/contentlist1"
+                android:layout_width="176dp"
+                android:layout_height="wrap_content"
+           android:maxLength="20"
+                android:text="TextView"
+                android:textColor="#6495ED" />
+            
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+                <TextView
+                android:id="@+id/telephonelist1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#2e8b57"
+                android:text="TextView" />
+                
+                <TextView
+                android:id="@+id/pricelist1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="#ff8c00"
+                android:text="TextView" />
+                 <TextView
+                android:id="@+id/sssss"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ff8c00"
+                android:textSize="16sp"
+                android:text="元" />
+                
+                
+            </LinearLayout>
+            
+        </LinearLayout>
+
+           
+
+        </LinearLayout>
+
+        
+        
+    </TableRow>
+
+</TableLayout>

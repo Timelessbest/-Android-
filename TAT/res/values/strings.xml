@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TAT</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_wellcome">WellcomeActivity</string>
+    <string name="title_activity_scenic">ScenicActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_zong_list">ZongListActivity</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="title_activity_list_update">ListUpdateActivity</string>
+    <string name="title_activity_user_zhuce">UserZhuceActivity</string>
+    <string name="title_activity_dingdan">DingdanActivity</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_user_info">UserInfoActivity</string>
+    <string name="title_activity_ding_dan_ture">DingDan_tureActivity</string>
+    <string name="title_activity_others">OthersActivity</string>
+
+</resources>

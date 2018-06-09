@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spingarr">
+          
+    <item>重庆</item>  
+    <item>泸州</item>  
+    <item>北京</item>  
+    <item>上海</item> 
+    <item>南京</item> 
+    <item>全球</item> 
+    </string-array>
+</resources>

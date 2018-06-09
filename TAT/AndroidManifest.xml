@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tat"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".Global"
+        android:allowBackup="true"
+        android:icon="@drawable/logozhuti1"
+        android:label="说走就走"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="" >
+        </activity>
+        <activity
+            android:name=".WellcomeActivity"
+            android:label="说走就走" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ScenicActivity"
+            android:label="" >
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label=" " >
+        </activity>
+        <activity
+            android:name=".ZongListActivity"
+            android:label="" >
+        </activity>
+        <activity
+            android:name=".ListActivity"
+            android:label="" >
+        </activity>
+        <activity
+            android:name=".ListUpdateActivity"
+            android:label="" >
+        </activity>
+        <activity
+            android:name=".UserZhuceActivity"
+            android:label="" >
+        </activity>
+        <activity
+            android:name=".DingdanActivity"
+            android:label="@string/title_activity_dingdan" >
+        </activity>
+        <activity
+            android:name="com.cn.UserInfoActivity"
+            android:label="@string/title_activity_user_info" >
+        </activity>
+        <activity
+            android:name=".DingDan_tureActivity"
+            android:label="@string/title_activity_ding_dan_ture" >
+        </activity>
+        <activity
+            android:name=".OthersActivity"
+            android:label="@string/title_activity_others" >
+        </activity>
+    </application>
+
+</manifest>

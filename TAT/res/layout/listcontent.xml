@@ -1,0 +1,176 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/image_update"
+            android:layout_width="320dp"
+            android:layout_height="125dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/beijing2" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/namelistcontent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearLayout1"
+        android:text="新加坡"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/contentlisttcontent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/namelistcontent"
+        android:layout_alignBottom="@+id/namelistcontent"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/namelistcontent"
+         android:maxLength="30"
+        android:ems="30"
+        android:text="新加坡6日4晚自由行(3钻)·西部航空直飞 4晚连住不挪窝/省心省力 " />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/contentlisttcontent"
+        android:text="4.7"
+        android:textColor="#FF8C00" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/textView2"
+        android:text="分点评" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="13"
+        android:textColor="#FF8C00" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/TextView01"
+        android:text="人出游" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView7"
+        android:layout_alignLeft="@+id/imageView1"
+        android:background="#DCDCDC"
+        android:text="描述相符4.9分" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="27dp"
+        android:background="#DCDCDC"
+        android:text="导游讲解4.7分" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView7"
+        android:layout_alignLeft="@+id/telpnoelistcontent"
+        android:background="#DCDCDC"
+        android:text="行程安排4.8分" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="18dp"
+        android:background="#DCDCDC"
+        android:text="好评率98%" />
+
+    <Button
+        android:id="@+id/myorder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        
+        android:background="#FF8C00"
+        android:text="开始预订"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/myorder"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="26dp"
+        android:background="@drawable/textbeij"
+        android:gravity="center"
+        android:text="查看全部评论"
+        android:textColor="#4682b4" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/contentlisttcontent"
+        android:layout_below="@+id/contentlisttcontent"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/pricelistcontent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="120.0"
+            android:textColor="#FF8C00" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/pricelistcontent"
+            android:layout_alignBottom="@+id/pricelistcontent"
+            android:layout_alignLeft="@+id/TextView01"
+            android:layout_marginTop="20dp"
+            android:text="元"
+            android:textColor="#FF8C00"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/telpnoelistcontent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/linearLayout2"
+        android:layout_toLeftOf="@+id/myorder"
+        android:text="15178710867"
+        android:textColor="#4682b4" />
+
+</RelativeLayout>
